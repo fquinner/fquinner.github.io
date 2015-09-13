@@ -1,0 +1,26 @@
+# Site settings
+title: "Frank's Tech Blog"
+email: fquinn.ni@gmail.com
+description: "I like to play with things."
+baseurl: ""
+url: "http://fquinner.github.io"
+title_description: "This is my tech blog which will mostly cover my work on OpenMAMA and related projects... but may contain the occasional unrelated technical rant. I have been working with various aspects of financial technologies for about 10 years and I am currently a contributor to OpenMAMA and a maintainer of the OpenMAMA ZeroMQ bridge."
+disqus_account: fquinner
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: fquinner
+github_username:  fquinner
+linkedin_link: https://uk.linkedin.com/pub/frank-quinn/8/b30/b57
+stackoverflow_link: http://stackoverflow.com/users/1775492/fquinner
+
+# Footer
+footer_left: "Copyright &#169; 2015 Frank Quinn"
+footer_right: "Jekyll site powered by <a href=\"https://github.com/jacobtomlinson/carte-noire\">carte-noir</a>"
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
+exclude: [vendor]

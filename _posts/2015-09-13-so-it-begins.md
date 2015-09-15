@@ -104,7 +104,3 @@ and how clean the ZeroMQ API is.
 You can find the ZeroMQ bridge here:
 
 https://github.com/fquinner/OpenMAMA-zmq
-
-You’re welcome to leave a comment, drop me a message or ping me on IRC in #openmama 
-(freenode) if you are curious about anything, or if you have any suggestions on the 
-implementation or direction of the project.

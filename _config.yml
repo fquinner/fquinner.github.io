@@ -14,6 +14,8 @@ github_username:  fquinner
 linkedin_link: https://uk.linkedin.com/pub/frank-quinn/8/b30/b57
 stackoverflow_link: http://stackoverflow.com/users/1775492/fquinner
 
+google_analytics: "UA-67658369-1"
+
 # Footer
 footer_left: "Copyright &#169; 2015 Frank Quinn"
 footer_right: "Jekyll site powered by <a href=\"https://github.com/jacobtomlinson/carte-noire\">carte-noir</a>"

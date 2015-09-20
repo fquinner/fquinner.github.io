@@ -2,14 +2,12 @@
 layout:     post
 title:      And so it begins...
 date:       2015-09-13 20:11:50
-summary:    Writing an OpenMAMA middleware bridge - a disappointingly straightforward affair.
+summary:    Writing an OpenMAMA middleware bridge for ZeroMQ - a disappointingly straightforward affair.
 thumbnail:  cogs
 tags:
  - OpenMAMA
  - ZeroMQ
 ---
-
-## Writing an OpenMAMA Middleware Bridge for ZeroMQ
 
 After we completed the Qpid Proton bridge for OpenMAMA, I found myself 
 constantly wondering how some of the problems we faced could be solved 

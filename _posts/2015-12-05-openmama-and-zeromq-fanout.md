@@ -26,12 +26,14 @@ required to write one is in that link.
 
 If you compile the code from that link using XSUB / XPUB, you'll have an
 intermediary which:
+
 * Is going to subscribe to everything over TCP port 5559
 * Is going to publish everything over TCP port 5560
 
 So how do you connect to this intermediary? It's actually fairly straightforward -
 simply point every single node on the messaging bus to it. In mama.properties
 for the zeromq bridge, it would look like this:
+
     mama.zmq.transport.broker.outgoing_url=tcp://localhost:5559
     mama.zmq.transport.broker.incoming_url=tcp://localhost:5560
 
@@ -50,10 +52,12 @@ If you want to connect multiple consumers to a small number of publishers, you c
 try connecting straight to the publisher. You can do this by adopting a similar
 approach to the intermediary where both publisher and subscriber ports are binded
 on the publisher side:
+
     mama.zmq.transport.fanout.outgoing_url=tcp://*:5556
     mama.zmq.transport.fanout.incoming_url=tcp://*:5557
 
 Then on each client, you can re-use the same transport settings:
+
     mama.zmq.transport.client.outgoing_url=tcp://localhost:5557
     mama.zmq.transport.client.incoming_url=tcp://localhost:5556
 
@@ -75,6 +79,7 @@ state for sibling subscribers. It's actually a trick which was lifted from the o
 OpenMAMA avis bridge.
 
 This approach was taken for a few reasons rather than ZeroMQ's Request / Reply pattern:
+
 * I was keeping one eye on wanting to use a mechanism which could be adapted relatively
   unchanged to PGM, therefore I didn't want any publisher to have to store any context 
   bout its downstream consumers.

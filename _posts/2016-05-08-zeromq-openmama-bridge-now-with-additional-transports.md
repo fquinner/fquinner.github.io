@@ -78,4 +78,3 @@ Once these are sorted, I think we'll be ready for a 1.0 because it would be the
 finally settled-on architecture for internal queuing and it would be completely
 tunable. As long as these things are up in the air, I'd prefer not to call it
 a "1.x" release.
-

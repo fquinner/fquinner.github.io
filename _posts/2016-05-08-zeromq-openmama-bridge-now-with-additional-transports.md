@@ -69,10 +69,10 @@ unit tests.
 I might consider a 1.0 release in time, but there are a few things that I would like
 to see completed before doing so:
 
-* https://github.com/fquinner/OpenMAMA-zmq/issues/5: Make pool sizes configurable
-* https://github.com/fquinner/OpenMAMA-zmq/issues/4: Make various zeromq socket options configurable
-* https://github.com/fquinner/OpenMAMA-zmq/issues/2: Should see if the zeromq's proc is a worthy queue implementation
-* https://github.com/fquinner/OpenMAMA-zmq/issues/1: Should move memory pools being used for message passing to queues
+* [Issue #5](https://github.com/fquinner/OpenMAMA-zmq/issues/5): Make pool sizes configurable
+* [Issue #4](https://github.com/fquinner/OpenMAMA-zmq/issues/4): Make various zeromq socket options configurable
+* [Issue #2](https://github.com/fquinner/OpenMAMA-zmq/issues/2): Should see if the zeromq's proc is a worthy queue implementation
+* [Issue #1](https://github.com/fquinner/OpenMAMA-zmq/issues/1): Should move memory pools being used for message passing to queues
 
 Once these are sorted, I think we'll be ready for a 1.0 because it would be the
 finally settled-on architecture for internal queuing and it would be completely

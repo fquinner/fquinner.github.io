@@ -22,7 +22,8 @@ footer_right: "Jekyll site powered by <a href=\"https://github.com/jacobtomlinso
 
 # Build settings
 markdown: kramdown
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 permalink: pretty
 exclude: [vendor]

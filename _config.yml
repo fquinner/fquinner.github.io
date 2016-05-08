@@ -4,7 +4,7 @@ email: fquinn.ni@gmail.com
 description: "I like to play with things."
 baseurl: ""
 url: "http://fquinner.github.io"
-title_description: "This is my tech blog which will mostly cover my work on OpenMAMA and related projects... but may contain the occasional unrelated technical rant. I have been working with various aspects of financial technologies for about 10 years and I am currently a contributor to OpenMAMA and a maintainer of the OpenMAMA ZeroMQ bridge."
+title_description: "This is my tech blog which will mostly cover my work on OpenMAMA and related projects... but may contain the occasional unrelated technical rant. I have been working with various aspects of financial technologies for over 10 years and I am currently maintainer of the OpenMAMA, OpenMAMA-zmq and OpenMAMA-onmn projects."
 disqus_account: fquinner
 post_limit: 5
 

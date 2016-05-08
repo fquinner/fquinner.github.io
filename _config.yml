@@ -21,7 +21,7 @@ footer_left: "Copyright &#169; 2015 Frank Quinn"
 footer_right: "Jekyll site powered by <a href=\"https://github.com/jacobtomlinson/carte-noire\">carte-noir</a>"
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 permalink: pretty

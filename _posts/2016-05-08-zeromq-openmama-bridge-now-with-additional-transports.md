@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      OpenMAMA ZeroMQ 0.3 Released - PGM and IPC support added
-date:       2016-05-08 13:21:00
+date:       2016-05-08 01:00:00
 summary:    Multicast and inter-process transports added
 thumbnail:  cogs
 tags:

@@ -32,6 +32,10 @@ are two separate and independent responsibilities for me.
 
 ### But SR Labs pay your salary right?
 
+Full time employees are fairly common in Open Source projects. If you look at Clang/LLVM you'll find people
+like Chris Lattner who work openly in the community but are also on the payroll of Apple, yet they work
+shoulder to shoulder with people from Google and even Microsoft.
+
 The reality of my OpenMAMA involvement is actually very straightforward. When SR Labs allocates me time to
 work on OpenMAMA, I work on OpenMAMA tasks which SR Labs have agreed to sponsor efforts around including
 day to day maintenance. When I am at home and off the SR Labs clock, you may find me working
@@ -64,7 +68,10 @@ weighted voters and sponsors in the OpenMAMA Steering committee_ because they ar
 adopters of the technology and they want others to adopt it too.
 
 To be a little more succinct, the roadmap is signed off on by the Steering Committee in periodic
-sync ups - it is absolutely not dicated by SR Labs.
+sync ups - it is absolutely not dicated by SR Labs. OpenMAMA also has an active community of users and
+contributors who would cry foul at the first sign of an anti-competitive project direction, so
+in many ways, the biggest guardian of the project's integrity is its transparency which is greater
+than ever since its move to Github.
 
 ### Summing up
 
@@ -76,3 +83,4 @@ seems to be a ramp-up in activity, particularly in the last 12 months, and the p
 is going from strength to strength. We also know of several companies who have popped up on the
 mailing lists who are using OpenMAMA without any SR Labs products whatsoever which I think is a
 testament to the vendor neutrality of OpenMAMA.
+

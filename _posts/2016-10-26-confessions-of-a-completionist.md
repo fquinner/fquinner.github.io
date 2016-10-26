@@ -29,4 +29,4 @@ Eventually enough was enough and I decided to pull down a copy of OMNM and have 
 
 After this has been completed, the ZeroMQ bridge will have the OMNM bridge included in future releases and will default to the omnm payload bridge. This should provide significantly improved performance for all future users of the bridge, and make it much easier to get up and running with ZeroMQ.
 
-You can have a look at the recent changes over at https://github.com/fquinner/OpenMAMA-omnm.
+You can have a look at the recent changes over at [the github page](https://github.com/fquinner/OpenMAMA-omnm).
